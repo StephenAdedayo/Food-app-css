@@ -200,6 +200,8 @@ section{
     justify-content: center;
     text-align: center;
     border-radius: 10px 10px 0 0;
+    background-position: fixed;
+    background-size: cover;
     
 }
 
@@ -258,7 +260,7 @@ section{
         position: absolute;
         top: 0;
         right: -100%;
-        background-color: rgb(128, 14, 210);
+        background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKgAswMBIgACEQEDEQH/xAAVAAEBAAAAAAAAAAAAAAAAAAAAB//EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAWAQEBAQAAAAAAAAAAAAAAAAAABQP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCRgLbQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//2Q==);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -284,6 +286,10 @@ section{
      #menu-icon{
         display: initial;
         z-index: 10;
+        background-color: white;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 50%;
      }
 
 }
@@ -299,6 +305,7 @@ section{
     }
     .about-text h3{
         font-size: 30px;
+        margin-right: 10px;
     }
 
     .payment{
@@ -370,6 +377,7 @@ section{
 
     .product-text{
         margin-right:120px ;
+        text-wrap: wrap;
     }
 
     .payment{
@@ -488,7 +496,13 @@ section{
         font-size:100px ;
     }
 
-    
+    .payment-img{
+        margin-right: 30px;
+    }
+
+    .product-img{
+        margin-right: 30px;
+    }
 }
     
     
