@@ -305,9 +305,10 @@ section{
     }
     .about-text h3{
         font-size: 30px;
-        margin-right: 10px;
+        margin-right: -40px;
     }
 
+    
     .payment{
         padding: 100px 0 100px 150px;
     }
@@ -333,7 +334,7 @@ section{
         overflow:hidden;
     }
 
-    .about-p{
+    .about-{
         margin-left: 130px;
         
     }
@@ -482,6 +483,19 @@ section{
         color: white;
         margin-bottom: 20px;
     }
+
+    .product-text{
+        padding: 0 20px 0 10px;
+    }
+
+    .about-text{
+        padding: 0 150px 0 150px;
+    }
+     .payment-text{
+        padding: 0 60px 0 60px;
+     }
+
+
 
     .a-links{
         color: white;
